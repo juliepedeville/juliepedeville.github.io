@@ -1,0 +1,17 @@
+url: https://juliepedeville.github.io
+baseurl:
+
+# Site settings
+title: Julie Pédeville
+email: pedeville.julie@gmail.com
+description: "Site web personnel de Julie Pédeville - Marketing Digital"
+
+linkedin: https://www.linkedin.com/in/julie-pédeville-36747092
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty
