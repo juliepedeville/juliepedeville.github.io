@@ -278,6 +278,11 @@ header {
     -o-background-size: cover;
 }
 
+header .intro-image {
+    width:150px;
+    text-align:center;
+}
+
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -301,8 +306,14 @@ header .intro-text .intro-heading {
 }
 
 @media(min-width:768px) {
+
+    header .intro-image {
+        width:150px;
+        right:0px;
+    }
+
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 100px;
         padding-bottom: 200px;
     }
 
@@ -335,12 +346,27 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
+    margin-bottom: 35px;
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
+}
+
+section p {
+    text-indent: 2em;
+}
+
+.section-p {
+    color: #333;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.section-img img{
+    width:100%;
 }
 
 @media(min-width:768px) {
