@@ -1,4 +1,4 @@
-<script src="{{ "/js/scrollreveal.min.js" | prepend: site.baseurl }}"></script>
+
  <!-- jQuery Version 1.11.0 -->
     <script src="{{ "/js/jquery-1.11.0.js" | prepend: site.baseurl }}"></script>
 
@@ -17,5 +17,10 @@
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
 
-    <!-- Scroll reveal - Animation -->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+ <script>
+     window.sr = ScrollReveal({duration:1000, distance: '100px'});
+     sr.reveal('.btn');
+     sr.reveal('.ico');
+     sr.reveal('.timeline-notinverted', {origin: 'left', distance: '500px'});
+     sr.reveal('.timeline-inverted', {origin: 'right', distance: '500px'});
+ </script>

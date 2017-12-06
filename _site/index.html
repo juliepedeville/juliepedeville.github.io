@@ -15,11 +15,16 @@
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/animate.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -85,8 +90,8 @@
                 <div class="intro-image">
                     <img class="img-circle img-responsive" src="img/julie.jpg" alt="">
                 </div>
-                <div class="intro-lead-in">Bienvenue sur mon site personnel !</div>
-                <div class="intro-heading">Project manager - Marketing Digital</div>
+                <div class="intro-lead-in animated slideInLeft">Bienvenue sur mon site personnel !</div>
+                <div class="intro-heading animated slideInRight">Project manager - Marketing Digital</div>
                 <a href="#apropos" class="page-scroll btn btn-xl">Qui suis-je ?</a>
             </div>
         </div>
@@ -149,15 +154,15 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x sr-icons">
+                <div class="col-md-4 ico">
+                    <span class="fa-stack fa-4x sr-icons ">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-plane fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Expériences à l'international</h4>
                     <p class="text-muted">Pour satisfaire tout type de client quelques soit leur nationalité</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 ico">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
@@ -165,7 +170,7 @@
                     <h4 class="service-heading">Maitrise des outils du digital</h4>
                     <p class="text-muted">Parceque Google Analytics ne me fait pas peur !</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 ico">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-handshake-o fa-stack-1x fa-inverse"></i>
@@ -192,7 +197,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="timeline">
-                        <li>
+                        <li class="timeline timeline-notinverted">
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
                             </div>
@@ -220,7 +225,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="timeline">
+                        <li class="timeline timeline-notinverted">
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/about/predicast.jpg" alt="">
                             </div>
@@ -248,7 +253,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="timeline">
+                        <li class="timeline timeline-notinverted">
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/about/srilanka.jpg" alt="">
                             </div>
@@ -277,7 +282,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="timeline">
+                        <li class="timeline timeline-notinverted">
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/about/dubai.jpg" alt="">
                             </div>
@@ -317,19 +322,19 @@
             </div>
             <div class="row">
                 <div class="col-lg-12" style="color:#fff;">
-                    <div class="col-lg-3 text-center">
+                    <div class="col-lg-3 text-center ico">
                         <a href="https://www.linkedin.com/in/julie-pédeville-36747092"><i class="fa fa-linkedin fa-4x sr-contact"></i></a>
                         <p><a href="https://www.linkedin.com/in/julie-pédeville-36747092">Julie Pédeville</a></p>
                     </div>
-                    <div class="col-lg-3  text-center">
+                    <div class="col-lg-3  text-center ico">
                         <a href="mailto:pedeville.julie@gmail.com"><i class="fa fa-envelope-o fa-4x sr-contact"></i></a>
                         <p><a href="mailto:pedeville.julie@gmail.com">pedeville.julie@gmail.com</a></p>
                     </div>
-                    <div class="col-lg-3  text-center">
+                    <div class="col-lg-3  text-center ico">
                         <a href="/cv.pdf"><i class="fa fa-file-pdf-o fa-4x sr-contact"></i></a>
                         <p><a href="/cv.pdf" target="_blank">CV en français</a></p>
                     </div>
-                    <div class="col-lg-3  text-center">
+                    <div class="col-lg-3  text-center ico">
                         <a href="/cv_en.pdf"><i class="fa fa-file-pdf-o fa-4x sr-contact"></i></a>
                         <p><a href="/cv_en.pdf" target="_blank">English CV</a></p>
                     </div>
@@ -340,7 +345,7 @@
 
     <!--% include footer.html %-->
     <!--% include modals.html %-->
-    <script src="/js/scrollreveal.min.js"></script>
+    
  <!-- jQuery Version 1.11.0 -->
     <script src="/js/jquery-1.11.0.js"></script>
 
@@ -359,8 +364,14 @@
     <!-- Custom Theme JavaScript -->
     <script src="/js/agency.js"></script>
 
-    <!-- Scroll reveal - Animation -->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+ <script>
+     window.sr = ScrollReveal({duration:1000, distance: '100px'});
+     sr.reveal('.btn');
+     sr.reveal('.ico');
+     sr.reveal('.timeline-notinverted', {origin: 'left', distance: '500px'});
+     sr.reveal('.timeline-inverted', {origin: 'right', distance: '500px'});
+ </script>
+
 
     </body>
 </html>
