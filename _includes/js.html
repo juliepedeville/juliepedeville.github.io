@@ -18,9 +18,16 @@
     <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
 
  <script>
-     window.sr = ScrollReveal({duration:1000, distance: '100px'});
-     sr.reveal('.btn');
-     sr.reveal('.ico', 500);
-     sr.reveal('.timeline-notinverted', {origin: 'left', distance: '500px'});
-     sr.reveal('.timeline-inverted', {origin: 'right', distance: '500px'});
+     var mq = window.matchMedia("(min-width: 992px)");
+
+
+     window.sr = ScrollReveal({duration:1000, distance: '100px', mobile:false});
+     var isMobile = sr.tools.isMobile();
+
+     if (!isMobile || (isMobile && mq.matches)){
+         sr.reveal('.btn');
+         sr.reveal('.ico', 500);
+         sr.reveal('.timeline-notinverted', {origin: 'left', distance: '500px'});
+         sr.reveal('.timeline-inverted', {origin: 'right', distance: '500px'});
+     }
  </script>

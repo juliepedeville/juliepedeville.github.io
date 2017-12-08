@@ -322,22 +322,30 @@
             </div>
             <div class="row">
                 <div class="col-lg-12" style="color:#fff;">
-                    <div class="col-lg-3 text-center ico">
-                        <a href="https://www.linkedin.com/in/julie-pédeville-36747092"><i class="fa fa-linkedin fa-4x sr-contact"></i></a>
-                        <p><a href="https://www.linkedin.com/in/julie-pédeville-36747092">Julie Pédeville</a></p>
-                    </div>
-                    <div class="col-lg-3  text-center ico">
-                        <a href="mailto:pedeville.julie@gmail.com"><i class="fa fa-envelope-o fa-4x sr-contact"></i></a>
-                        <p><a href="mailto:pedeville.julie@gmail.com">pedeville.julie@gmail.com</a></p>
-                    </div>
-                    <div class="col-lg-3  text-center ico">
-                        <a href="/cv.pdf"><i class="fa fa-file-pdf-o fa-4x sr-contact"></i></a>
-                        <p><a href="/cv.pdf" target="_blank">CV en français</a></p>
-                    </div>
-                    <div class="col-lg-3  text-center ico">
-                        <a href="/cv_en.pdf"><i class="fa fa-file-pdf-o fa-4x sr-contact"></i></a>
-                        <p><a href="/cv_en.pdf" target="_blank">English CV</a></p>
-                    </div>
+                    <a href="https://www.linkedin.com/in/julie-pédeville-36747092" target="_blank">
+                        <div class="col-lg-3 text-center ico">
+                            <i class="fa fa-linkedin fa-4x sr-contact"></i>
+                            <p>Julie Pédeville</p>
+                        </div>
+                    </a>
+                    <a href="mailto:pedeville.julie@gmail.com">
+                        <div class="col-lg-3  text-center ico">
+                            <i class="fa fa-envelope-o fa-4x sr-contact"></i>
+                            <p>pedeville.julie@gmail.com</p>
+                        </div>
+                    </a>
+                    <a href="/cv.pdf" target="_blank">
+                        <div class="col-lg-3  text-center ico">
+                            <i class="fa fa-file-pdf-o fa-4x sr-contact"></i>
+                            <p>CV en français</p>
+                        </div>
+                    </a>
+                    <a href="/cv_en.pdf" target="_blank">
+                        <div class="col-lg-3  text-center ico">
+                            <i class="fa fa-file-pdf-o fa-4x sr-contact"></i>
+                            <p>English CV</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -365,11 +373,18 @@
     <script src="/js/agency.js"></script>
 
  <script>
-     window.sr = ScrollReveal({duration:1000, distance: '100px'});
-     sr.reveal('.btn');
-     sr.reveal('.ico', 500);
-     sr.reveal('.timeline-notinverted', {origin: 'left', distance: '500px'});
-     sr.reveal('.timeline-inverted', {origin: 'right', distance: '500px'});
+     var mq = window.matchMedia("(min-width: 992px)");
+
+
+     window.sr = ScrollReveal({duration:1000, distance: '100px', mobile:false});
+     var isMobile = sr.tools.isMobile();
+
+     if (!isMobile || (isMobile && mq.matches)){
+         sr.reveal('.btn');
+         sr.reveal('.ico', 500);
+         sr.reveal('.timeline-notinverted', {origin: 'left', distance: '500px'});
+         sr.reveal('.timeline-inverted', {origin: 'right', distance: '500px'});
+     }
  </script>
 
 
