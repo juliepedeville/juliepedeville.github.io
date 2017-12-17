@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0ab47ea-91a8-42ff-84f5-0f70bcff3db1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/1_apropos_en.html" afterPath="$PROJECT_DIR$/_includes/1_apropos_en.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/2_competences_en.html" afterPath="$PROJECT_DIR$/_includes/2_competences_en.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/contact_en.html" afterPath="$PROJECT_DIR$/_includes/contact_en.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/3_experiences_en.html" afterPath="$PROJECT_DIR$/_includes/3_experiences_en.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3_experiences_en.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="3_experiences_en.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/3_experiences_en.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1800">
-              <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+            <state relative-caret-position="302">
+              <caret line="111" column="50" lean-forward="true" selection-start-line="111" selection-start-column="50" selection-end-line="111" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -98,7 +96,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header_en.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header_en.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/header_en.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
@@ -166,10 +164,10 @@
         <option value="$PROJECT_DIR$/_includes/2_competences.html" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/_includes/header_en.html" />
-        <option value="$PROJECT_DIR$/_includes/3_experiences_en.html" />
         <option value="$PROJECT_DIR$/_includes/contact_en.html" />
         <option value="$PROJECT_DIR$/_includes/1_apropos_en.html" />
         <option value="$PROJECT_DIR$/_includes/2_competences_en.html" />
+        <option value="$PROJECT_DIR$/_includes/3_experiences_en.html" />
       </list>
     </option>
   </component>
@@ -287,12 +285,12 @@
       <workItem from="1512664758625" duration="1355000" />
       <workItem from="1512718238526" duration="2676000" />
       <workItem from="1512769837223" duration="597000" />
-      <workItem from="1513536406560" duration="6050000" />
+      <workItem from="1513536406560" duration="6153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45880000" />
+    <option name="totallyTimeSpent" value="45983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -670,18 +668,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/3_experiences_en.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1800">
-          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header_en.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="55" column="18" lean-forward="true" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/3_experiences_en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="111" column="50" lean-forward="true" selection-start-line="111" selection-start-column="50" selection-end-line="111" selection-end-column="50" />
           <folding />
         </state>
       </provider>
